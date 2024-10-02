@@ -1,18 +1,23 @@
 {
   "name": "ui-playwright",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple UI automation framework using JavaScript-playwright",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fsevents": "^2.3.2",
+    "playwright": "^1.47.2",
+    "playwright-core": "^1.47.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  },
   "scripts": {},
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.4.5",
-    "playwright": "^1.46.0"
-  },
-  "devDependencies": {
-    "@playwright/test": "^1.46.0",
-    "@types/node": "^22.3.0"
-  }
+  "license": "ISC"
 }
